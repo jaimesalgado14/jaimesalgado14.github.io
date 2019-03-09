@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <meta name="Personal Web Page" content="basic information">
+  <meta name="keywords" content="HTML,CSS">
+  <meta name="author" content="Jaime Salgado 2019">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!-- thank's to www.w3schools.com for the demo of slide -->
+<title>Personal Web Page</title>
+</head>
+	<style>
+		.path {
+  background-image: url("image/path.png");
+  position: absolute;
+  left: 14px;
+  top: 8px;
+  width: 1336px;
+  height: 640px;
+  z-index: 3;
+}
+		.Rectangle {
+  background-image: url("image/rectangle_left.png");
+  opacity: 0.2;
+  position: absolute;
+  left: 74px;
+  top: 78px;
+  width: 426px;
+  height: 427px;
+  z-index: 19;
+}
+		.photo {
+  background-image: url("image/photo.png");
+  position: absolute;
+  left: 1205px;
+  top: 10px;
+  width: 151px;
+  height: 153px;
+  z-index: 27;
+}
+		.top_text {
+  font-size: 37.5px;
+  font-family: "Verdana";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 920px;
+  top: 56px;
+  z-index: 26;
+}
+
+.text {
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: justify;
+  position: absolute;
+  left: 534px;
+  top: 153.216px;
+  width: 726px;
+  height: 352px;
+  z-index: 27;
+  overflow: auto;
+}
+	
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+		}
+		.line_botton {
+  background-image: url("image/line_botton.png");
+  position: absolute;
+  left: 500px;
+  top: 579px;
+  width: 792px;
+  height: 4px;
+  z-index: 25;
+}
+.botton_text {
+  font-size: 24px;
+  font-family: "Verdana";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: right;
+  position: absolute;
+  left: 740px;
+  top: 590.868px;
+  z-index: 26;
+}
+.menu {
+  width: 200px;
+  position: absolute;
+  left: 74px;
+  top: 78px;
+  width: 426px;
+  height: 427px;
+  z-index: 19;
+}
+
+.menu a {
+  font-size: 18px;
+  font-family: "Verdana";
+  color: white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: #43bbe9;
+}
+
+.menu a.active {
+  background-color: #242993;
+  color: white;
+}
+
+
+	</style>
+
+<body>
+	<body style="background-color:whitesmoke;">
+		<a class="path"></a>
+		<a class="Rectangle"></a>
+		<a class="photo"></a>
+		<div class="menu">
+  			<a href="index.html">Bio</a>
+  			<a href="interestinit.html" class="active">Interest in IT</a>
+  			<a href="idealjob.html">Ideal Job</a>
+  			<a href="personalprofile.html">Personal Profile (Test's)</a>
+ 			 <a href="contact.html">Contact</a>
+		</div>
+		<a class="text">From the moment my dad buys a computer in our family, from that moment I begin to love the IT world, I remember it was an IBM Aptiva PC whit a hard drive of 1.2 GB of space, and I did magic whit that computer, then the internet arrival it was hard tray to configure for the first time, some friend it was studied in India for Microsoft and he went to my house to tray and I saw what it was doing at that moment, after that I begin to help other people to do configure the computer to the internet  (that I can say as my beginnings) and other stuff.
+		<br>
+		<br>After that whit a family member we mount the first cyber café in our town, IT was good days when everybody was trying to learn to use a pc or tray to communicate whit faraway relatives. After that I move to Australia and left the IT for a period of 5 years I work in another thing, but I always try to learn different technology, after that period I move back to El Salvador, and I went to the university Doctor Andres Bellos, to be graduate as Certificate of Higher Education, Computer Maintenance Technician, whit the certificate I can work whit the local government of Juayua, and that opens the door to be part of the central government in El Salvador, as Help Desk tier 2 and 3.  
+		<br>
+		<br>I choose RMIT to continue my superior study’s because they have the policy of Open University, and for my personal convenience of time a chose RMTI, I what to finish my university degree and learn and develop a new skill for my life.
+			<br>
+			<div class="w3-container">
+  		<h2>Example of my IT</h2>
+  </div>
+
+<div class="w3-content w3-display-container" style="max-width:300px">
+  <img class="mySlides" src="image/image1.jpg" style="width:100%">
+  <img class="mySlides" src="image/image2.jpg" style="width:100%">
+  <img class="mySlides" src="image/image3.jpg" style="width:100%">
+  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+</div>
+	</a>
+		<a class="line_botton"></a>
+		<a class="botton_text">Personal Web - 2019 </a>
+		<a class="top_text">Interest in IT</a>
+		
+		</body>
+</html>
